@@ -31,7 +31,7 @@ public class HourlyEmployee : Employee
     {
         get
         {
-            return wage;
+            return hours;
         }
         set
         {
