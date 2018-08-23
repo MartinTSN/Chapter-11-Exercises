@@ -49,9 +49,10 @@
     <Compile Include="HourlyEmployee.cs" />
     <Compile Include="Invoice.cs" />
     <Compile Include="IPayable.cs" />
-    <Compile Include="PayableInterfaceTest.cs" />
+    <Compile Include="PieceWorker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SalariedEmployee.cs" />
+    <Compile Include="Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

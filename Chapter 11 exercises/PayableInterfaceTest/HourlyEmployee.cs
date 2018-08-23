@@ -56,7 +56,8 @@ public class HourlyEmployee : Employee
 
     public override string ToString() =>
         $"hourly employee: {base.ToString()}\n" +
-        $"hourly wage: {Wage:C}\nhours worked: {Hours:F2}";
+        $"hourly wage: {Wage:C}\n" +
+        $"hours worked: {Hours:F2}";
 
 }
 
