@@ -4,8 +4,8 @@ public class CommissionEmployee : Employee
     private decimal grossSales;
     private decimal commissionRate;
 
-    public CommissionEmployee(string firstName, string lastName, string socialSecurityNumber, decimal grossSales, decimal commissionRate)
-        : base(firstName, lastName, socialSecurityNumber)
+    public CommissionEmployee(string firstName, string lastName, string socialSecurityNumber, decimal grossSales, decimal commissionRate, Date birthday)
+        : base(firstName, lastName, socialSecurityNumber,birthday)
     {
         GrossSales = grossSales;
         CommissionRate = commissionRate;

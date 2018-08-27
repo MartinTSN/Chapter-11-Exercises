@@ -4,8 +4,8 @@ public class SalariedEmployee : Employee
 {
     private decimal weeklySalary;
 
-    public SalariedEmployee(string firstName, string lastName, string socialSecurityNumber, decimal weeklySalary)
-        : base(firstName, lastName, socialSecurityNumber)
+    public SalariedEmployee(string firstName, string lastName, string socialSecurityNumber, decimal weeklySalary, Date birthday)
+        : base(firstName, lastName, socialSecurityNumber, birthday)
     {
         WeeklySalary = weeklySalary;
     }

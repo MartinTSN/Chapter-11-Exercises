@@ -5,11 +5,12 @@ class Test
 {
     static void Main()
     {
-        var salariedEmployee = new SalariedEmployee("John", "Smith", "111-11-1111", 800.00m);
-        var hourlyEmployee = new HourlyEmployee("Karen", "Price", "222-22-2222", 16.75m, 40.0m);
-        var commissionEmployee = new CommissionEmployee("Sue", "Jones", "333-33-3333", 10000.00m, .06m);
-        var basePlusCommissionEmployee = new BasePlusCommissionEmployee("Bob", "Lewis", "444-44-4444", 5000.00m, .04m, 300.00m);
-        var pieceWorker = new PieceWorker("Brian", "Briansen", "555-55-5555", .40m, 1000);
+        var birthday = new Date(1, 9, 1989);
+        var salariedEmployee = new SalariedEmployee("John", "Smith", "111-11-1111", 800.00m, birthday);
+        var hourlyEmployee = new HourlyEmployee("Karen", "Price", "222-22-2222", 16.75m, 40.0m, birthday);
+        var commissionEmployee = new CommissionEmployee("Sue", "Jones", "333-33-3333", 10000.00m, .06m, birthday);
+        var basePlusCommissionEmployee = new BasePlusCommissionEmployee("Bob", "Lewis", "444-44-4444", 5000.00m, .04m, 300.00m, birthday);
+        var pieceWorker = new PieceWorker("Brian", "Briansen", "555-55-5555", .40m, 1000, birthday);
 
         Console.WriteLine("Employees processed individually:\n");
 

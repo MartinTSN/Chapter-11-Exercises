@@ -5,8 +5,8 @@ public class HourlyEmployee : Employee
     private decimal wage;
     private decimal hours;
 
-    public HourlyEmployee(string firstName, string lastName, string socialSecurityNumber, decimal hourlyWage, decimal hoursWorked)
-        : base(firstName, lastName, socialSecurityNumber)
+    public HourlyEmployee(string firstName, string lastName, string socialSecurityNumber, decimal hourlyWage, decimal hoursWorked,Date birthday)
+        : base(firstName, lastName, socialSecurityNumber,birthday)
     {
         Wage = hourlyWage;
         Hours = hoursWorked;

@@ -5,8 +5,8 @@ public class PieceWorker : Employee
     private decimal wage;
     private int pieces;
 
-    public PieceWorker(string firstName, string lastName, string socialSecurityNumber, decimal wage, int pieces)
-        : base(firstName, lastName, socialSecurityNumber)
+    public PieceWorker(string firstName, string lastName, string socialSecurityNumber, decimal wage, int pieces,Date birthday)
+        : base(firstName, lastName, socialSecurityNumber,birthday)
     {
         Wage = wage;
         Pieces = pieces;

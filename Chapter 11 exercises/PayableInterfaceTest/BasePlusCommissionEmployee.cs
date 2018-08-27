@@ -3,8 +3,8 @@ public class BasePlusCommissionEmployee : CommissionEmployee
 {
     private decimal baseSalary;
 
-    public BasePlusCommissionEmployee(string firstName, string lastName, string socialSecurityNumber, decimal grossSales, decimal commissionRate, decimal baseSalary)
-        : base(firstName, lastName, socialSecurityNumber, grossSales, commissionRate)
+    public BasePlusCommissionEmployee(string firstName, string lastName, string socialSecurityNumber, decimal grossSales, decimal commissionRate, decimal baseSalary,Date birthday)
+        : base(firstName, lastName, socialSecurityNumber, grossSales, commissionRate,birthday)
     {
         BaseSalary = baseSalary;
     }
