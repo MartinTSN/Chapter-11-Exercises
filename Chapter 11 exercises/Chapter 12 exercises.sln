@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 11 figures", "PayableInterfaceTest\Chapter 11 figures.csproj", "{09DF1CF9-5638-42F9-8D14-A4F06EDA578C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 12 figures", "PayableInterfaceTest\Chapter 12 figures.csproj", "{09DF1CF9-5638-42F9-8D14-A4F06EDA578C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
