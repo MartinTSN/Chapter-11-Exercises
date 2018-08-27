@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 12 figures", "PayableInterfaceTest\Chapter 12 figures.csproj", "{09DF1CF9-5638-42F9-8D14-A4F06EDA578C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quadrilareal", "Quadrilareal\Quadrilareal.csproj", "{71A5E9F7-B7EE-404E-9584-99C471A979D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{09DF1CF9-5638-42F9-8D14-A4F06EDA578C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09DF1CF9-5638-42F9-8D14-A4F06EDA578C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09DF1CF9-5638-42F9-8D14-A4F06EDA578C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71A5E9F7-B7EE-404E-9584-99C471A979D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A5E9F7-B7EE-404E-9584-99C471A979D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A5E9F7-B7EE-404E-9584-99C471A979D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A5E9F7-B7EE-404E-9584-99C471A979D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
